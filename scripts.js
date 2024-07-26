@@ -234,3 +234,12 @@
   let str = array.join('')
   console.log(str);
 }
+
+/*11. Создайте переменные strNumber1 и strNumber2 со значениями "20" и "30". 
+Преобразуйте их в числа, сложите и выведите результат. */
+{
+  let strNumber1 = '20';
+  let strNumber2 = '30';
+  let sum = +strNumber1 + +strNumber2;
+  console.log(sum);
+}
