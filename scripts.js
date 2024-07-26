@@ -227,3 +227,10 @@
   let floatNumber = 3.14;
   console.log(Math.round(floatNumber));
 }
+
+/*10. Объявите переменную array с несколькими элементами. Преобразуйте этот массив в строку и выведите результат в консоль. */
+{
+  let array = [4, 6, 'rtg'];
+  let str = array.join('')
+  console.log(str);
+}
