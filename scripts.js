@@ -221,3 +221,9 @@
   let stringNum = '100px';
   console.log(+stringNum);
 }
+
+/*9. Создайте переменную floatNumber с значением 3.14. Преобразуйте это число в целое и выведите результат в консоль. */
+{
+  let floatNumber = 3.14;
+  console.log(Math.round(floatNumber));
+}
